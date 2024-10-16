@@ -1,0 +1,19 @@
+{
+    "hosts": [
+        {
+            "node_type": "gateway",
+            "node_name": "Gate_1",
+            "publisher_for": "paho/example",
+            "subscriber_for": "paho/example",
+            "is_forever": false
+        },
+        {
+            "node_type": "gateway",
+            "node_name": "Gate_2",
+            "publisher_for": "paho/example",
+            "subscriber_for": "paho/example",
+            "is_forever": false
+        }
+        
+    ]
+}
